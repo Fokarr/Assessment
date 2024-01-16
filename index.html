@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/multi-select.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <multi-select inputValue="" showPlaceholder></multi-select>
+        <multi-select inputValue="Placeholder"></multi-select>
+        <multi-select open></multi-select>
+        <multi-select open hasError></multi-select>
+        <multi-select open hasSuccess></multi-select>
+        <multi-select open isLocked></multi-select>
+      </div>
+      <div class="right">
+        <multi-select open></multi-select>
+      </div>
+    </div>
+  </body>
+</html>
